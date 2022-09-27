@@ -1,0 +1,105 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+:root {
+	--color: rgb(175, 174, 174);
+}
+
+.App {
+	height: 100vh;
+}
+
+.header {
+	background-color: rgb(218, 213, 213);
+	display: flex;
+	justify-content: space-between;
+	padding: 0.3rem 5rem;
+	height: 5%;
+}
+
+.logo {
+	font-size: 0.7rem;
+}
+
+.login {
+	margin-top: 0.1rem;
+}
+
+.footer {
+	background-color: var(--color);
+	text-align: center;
+	height: 5%;
+	padding: 6px 0;
+}
+
+.select {
+	background-color: #fff;
+	border-radius: 8px;
+	width: 3.5rem;
+	text-align: center;
+	border: 1px solid #fff;
+}
+
+.form-login {
+	height: 90%;
+	position: relative;
+}
+
+.content {
+	width: 30rem;
+	height: 10rem;
+	border-radius: 0.7rem;
+	border: 1px solid gray;
+	position: absolute;
+	right: 30%;
+	bottom: 40%;
+	text-align: center;
+}
+
+.content-header {
+	background-color: var(--color);
+	border-top-left-radius: 0.7rem;
+	border-top-right-radius: 0.7rem;
+	height: 2rem;
+	padding: 0.4rem 0;
+}
+
+.input {
+	margin: 2rem 0;
+}
+
+input {
+	width: 24rem;
+	height: 1.6rem;
+	font-size: 0.8rem;
+	outline: none;
+	padding: 0.3rem 0.4rem;
+}
+
+input::placeholder {
+	text-align: center;
+}
+
+.btn-login {
+	width: 6rem;
+	cursor: pointer;
+	background-color: blue;
+	color: #fff;
+	border-radius: 0.8rem;
+	height: 1.5rem;
+	border: 1px solid blue;
+}
+
+.main {
+	margin: 0 auto;
+	height: 90%;
+	text-align: center;
+}
+
+.main h1 {
+	padding: 15rem;
+}
